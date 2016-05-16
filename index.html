@@ -9,10 +9,99 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
+    <!-- BootstrapのJS読？み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="about.css">
+    <style>
+      body {
+        font-size: 20px;
+      }
+      
+      .navbar {
+        border-radius: 0; 
+      }
+      
+      .row {
+        margin-bottom: 50px;
+      }
+      
+      .icon {
+        text-align: center;
+      }
+      
+      .icon .glyphicon {
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: #777;
+      }
+      
+      .content h2 {
+        margin-top: 0;
+        padding-bottom: 15px;
+      }
+      .content p {
+        margin-bottom: 30px;
+      }
+      
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+      
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+      
+      @media (max-width: 768px) {
+        body {
+          font-size: 12px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        .panel-title {
+          font-size: 14px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Under construction</li>
+                <li>Under construction</li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <img src="profile KM.jpg" alt"" />
+            <h1>武藤健太郎</h1>
+        </div>
+    </header>
+    <div class="container">
+        <section>
+            <h2>About</h2>
+            <h3>自己紹介</h3>
+            <p>鹿児島県いちき串木野市出身</p>
+            <p>最近は<span class="red">Ruby on Rails</span>を学んでいます</p>
+            <p>私のプロファイルをみて気になった方は<a href="contact.html">Contact</a>より</p>                <p>鹿児島県いちき串木野市出身</p>
+            <h3>リンク</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/kentaro.muto" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/mutoooken" target="_blank">Twitter</a></li>
+                <li><a href="https://github.com/mutoken" target="_blank">Github</a></li>
+            </ul>
+        </section>
+        <footer>
+            <p>&copy; 2016 Kentaro Muto</p>
+        </footer>
+    </div>
   </body>
 </html>
